@@ -1,0 +1,41 @@
+/* Universal Selector for font */
+* {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    text-align: right;
+    padding: 25px;
+}
+
+ul li {
+    display: inline;
+}
+
+.coming-soon {
+    background-color: rgba(39, 25, 9, 0.897);
+    padding: 10px;
+}
+
+.coming-soon-2 {
+    border-color: white;
+}
+/* Type selector for background color */
+body {
+    background-color: lemonchiffon;
+    padding-top: 80px;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+main {
+    text-align: center;
+}
